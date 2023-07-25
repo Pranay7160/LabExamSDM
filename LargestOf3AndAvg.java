@@ -20,10 +20,12 @@ public class LargestOf3AndAvg {
         }
         if (num3 > largest) {
             largest = num3;
-        }else{
-	    largest=num1;
-}
+        }
+
 
         System.out.println("The largest number is: " + largest);
+
+	double avg = (num1 + num2 + num3) / 3.0;
+        System.out.println("The average of the three numbers is: " + avg);
     }
 }
